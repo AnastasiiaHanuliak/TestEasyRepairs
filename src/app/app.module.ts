@@ -10,6 +10,9 @@ import { QuoteComponent } from './quote/quote.component';
 import { BannerComponent } from './banner/banner.component';
 import { SpGeneralComponent } from './sp-general/sp-general.component';
 import { NewHeaderComponent } from './new-header/new-header.component';
+import { FooterComponent } from './footer/footer.component';
+import { PaginationtionComponent } from './paginationtion/paginationtion.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import { NewHeaderComponent } from './new-header/new-header.component';
     QuoteComponent,
     BannerComponent,
     SpGeneralComponent,
-    NewHeaderComponent
+    NewHeaderComponent,
+    FooterComponent,
+    PaginationtionComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,

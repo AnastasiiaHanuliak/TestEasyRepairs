@@ -15,7 +15,7 @@ header {
   align-items: center;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   font-size: 2em;
-  z-index: 2;
+z-index: 12;
 }
 
 main {
@@ -62,7 +62,7 @@ main small {
   transition: .3s;
   background: #000;
 }
-:focus-within .bg {
+#nav-container:focus-within .bg {
   visibility: visible;
   opacity: .6;
 }
@@ -101,6 +101,7 @@ main small {
 
 :focus-within .button {
   pointer-events: none;
+
 }
 :focus-within .icon-bar:nth-of-type(1) {
   transform: translate3d(0,8px,0) rotate(45deg);
@@ -172,7 +173,9 @@ main small {
 }
 
 
-
+.button:focus-within + #nav-content{
+visibility: visible;
+}
 
 
 
